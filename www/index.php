@@ -39,8 +39,7 @@ class index {
         } catch (\InvalidArgumentException | \HorribleException $h) {
             $this->fuckOff($h->getMessage());
         } catch (\Throwable $e) {
-            //$this->fuckOff($e->getTraceAsString());
-            $this->fuckOff("Unknown error, sorry");
+            $this->fuckOff("Input data invalid");
         }
     }
 

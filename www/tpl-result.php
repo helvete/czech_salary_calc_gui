@@ -15,16 +15,35 @@
     <h1>Wage calc GUI</h1>
     <div>
         <?php
-            foreach ($data as $tpl => $val) {
-                echo sprintf($tpl, $val) . "<br />";
+            $a = false;
+            if (count($data)) {
+                echo "<table>";
+                $a = true;
             }
-            echo "Pure wage: " . number_format($actual, 2, '.', '') . '<br />';
+            foreach ($data as $tpl => $val) {
+                echo "<tr>";
+                $ihateit = false;
+                foreach (explode('%s', $tpl) as $tok) {
+                    if ($ihateit) {
+                        break;
+                    }
+                    // I shouldn't write code while being drunk
+                    echo "<td>{$tok}</td>";
+                    $ihateit = true;
+                }
+                echo "<td>{$val}</td>";
+                echo "</tr>";
+            }
+            if ($a) {
+                echo "</table>";
+            }
         ?>
     </div>
     <div>
-        DISCLAIMER <br />
+        <hr />
         <a href ="">new calculation</a>
     </div>
+    <?php include(__DIR__ . "/disclaimer.html"); ?>
 </body>
 </html>
 

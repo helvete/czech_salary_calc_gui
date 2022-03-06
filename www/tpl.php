@@ -15,29 +15,39 @@
     <h1>Wage calc GUI</h1>
     <div>
         <form method="POST">
-            <label for="wage">Wage monthly tariff (int) *</label>
-            <input type="text" name="wage" value="" />
-            <br />
-            <label for="yearmonth">Yearmonth in (YYYY-MM) *</label>
-            <input type="text" name="yearmonth" value="" />
-            <br />
-            <label for="untaxable">Untaxable amount (int)</label>
-            <input type="text" name="untaxable" value="0" />
-            <br />
-            <label for="vacrate">Vacation hourly rate (double)</label>
-            <input type="text" name="vacrate" value="0" />
-            <br />
-            <label for="vacutil">Vacation days utilized (double)</label>
-            <input type="text" name="vacutil" value="0" />
-            <br />
-            <label for="ovetimehours">Overtime hours (double)</label>
-            <input type="text" name="ovetimehours" value="0" />
-            <br />
-            <input type="submit" name="submit" value="calc" />
+            <table class="itseemsiliketablez">
+                <tr><td>
+                <label for="wage">Wage monthly tariff (int) *</label>
+                </td><td>
+                <input type="text" name="wage" value="" />
+                </td></tr>
+                <tr><td>
+                <label for="yearmonth">Yearmonth in (YYYY-MM) *</label>
+                </td><td>
+                <input type="text" name="yearmonth" value="" />
+                <tr><td>
+                <label for="untaxable">Untaxable amount (int)</label>
+                </td><td>
+                <input type="text" name="untaxable" value="0" />
+                <tr><td>
+                <label for="vacrate">Vacation hourly rate (double)</label>
+                </td><td>
+                <input type="text" name="vacrate" value="0" />
+                <tr><td>
+                <label for="vacutil">Vacation days utilized (double)</label>
+                </td><td>
+                <input type="text" name="vacutil" value="0" />
+                <tr><td>
+                <label for="ovetimehours">Overtime hours (double)</label>
+                </td><td>
+                <input type="text" name="ovetimehours" value="0" />
+                </td><td>
+                <tr><td>
+                <input type="submit" name="submit" value="calc" />
+                </td><td>
+            </table>
         </form>
     </div>
-    <div>
-        DISCLAIMER
-    </div>
+    <?php include(__DIR__ . "/disclaimer.html"); ?>
 </body>
 </html>
