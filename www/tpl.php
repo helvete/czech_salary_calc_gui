@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="robots" content="index">
 
-    <title>Wage calc</title>
+    <title>Salary calculator</title>
     <style>
         li {
             line-height: 1.5;
@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-    <h1>Wage calc GUI</h1>
+    <h1>Salary calculator GUI</h1>
     <div>
         <form method="POST">
             <table class="itseemsiliketablez">
