@@ -13,6 +13,6 @@
     ],
     "require": {
         "php": ">= 7.0",
-        "helvete/wage-calc": "^1.3.2"
+        "helvete/wage-calc": "^1.3.3"
     }
 }
