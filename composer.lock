@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26b27536ee61ae3cf2fc15fac15718a4",
+    "content-hash": "56d36acf19e936d3bbeda1132d5133aa",
     "packages": [
         {
             "name": "helvete/wage-calc",
-            "version": "v1.3.4",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helvete/salary_calc_tools.git",
-                "reference": "3e5ee3fc0bf2886fde9abc2aab2d93cd63c28954"
+                "reference": "e96deae03bc99a260e2a224349ef78e92b61746a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helvete/salary_calc_tools/zipball/3e5ee3fc0bf2886fde9abc2aab2d93cd63c28954",
-                "reference": "3e5ee3fc0bf2886fde9abc2aab2d93cd63c28954",
+                "url": "https://api.github.com/repos/helvete/salary_calc_tools/zipball/e96deae03bc99a260e2a224349ef78e92b61746a",
+                "reference": "e96deae03bc99a260e2a224349ef78e92b61746a",
                 "shasum": ""
             },
             "bin": [
@@ -34,10 +34,10 @@
             ],
             "description": "Wage calc utils",
             "support": {
-                "source": "https://github.com/helvete/salary_calc_tools/tree/v1.3.4",
+                "source": "https://github.com/helvete/salary_calc_tools/tree/v1.4.0",
                 "issues": "https://github.com/helvete/salary_calc_tools/issues"
             },
-            "time": "2022-04-14T10:58:52+00:00"
+            "time": "2024-02-06T12:12:24+00:00"
         }
     ],
     "packages-dev": [],
