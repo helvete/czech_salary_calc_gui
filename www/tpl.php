@@ -43,6 +43,11 @@
                 <input type="text" name="ovetimehours" value="0" />
                 </td><td>
                 <tr><td>
+                <label for="children">Children count (int)</label>
+                </td><td>
+                <input type="text" name="children" value="0" />
+                </td><td>
+                <tr><td>
                 <input type="submit" name="submit" value="calc" />
                 </td><td>
             </table>

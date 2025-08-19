@@ -10,6 +10,7 @@ class DTO {
     private float $vacutil = 0;
     private bool $debug = true;
     private float $ovetimehours = 0;
+    private float $children = 0;
     private string $submit = "dummy holder";
 
     public static function fromArray(array $vals): self {
